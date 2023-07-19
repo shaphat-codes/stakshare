@@ -1,0 +1,7 @@
+design database scheme for store(prelim.)
+build store models
+build CRUD for store models
+handle media files
+url system
+
+design analyics
