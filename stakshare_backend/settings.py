@@ -15,7 +15,12 @@ SECRET_KEY = 'django-insecure-c#_-gt2zgz9)y=yj)=&8&4ryd+96^j98)1peiqep!4cbpc^_n6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
+
+CSRF_TRUSTED_ORIGINS = [
+    "http://localhost:5173",  # Add your frontend's origin
+    "http://127.0.0.1:5173",  # Add other variations if applicable
+]
 
 
 # Application definition
